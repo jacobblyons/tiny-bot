@@ -1,0 +1,40 @@
+# Python / editor
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.vscode/
+.idea/
+
+# Secrets (real values live here on dev machines)
+device/config.json
+device/session.jsonl
+*.local.*
+key.txt
+wifi.txt
+*.bootstrap_key
+
+# Claude Code / agent-local state
+.claude/
+
+# Adafruit CircuitPython bundle — large, fetch from
+# https://circuitpython.org/libraries instead of committing.
+.cp9-bundle/
+.cp9-bundle.zip
+
+# CircuitPython firmware blobs — large, downloadable from
+# https://circuitpython.org/board/lilygo_tdeck/. Keep locally if
+# you like, but don't push them.
+*.bin
+*.uf2
+
+# Scratch directories left over when unpacking the bundle.
+tmp_*/
+
+# On-device state synced back from the device (per-app save files,
+# the home-screen launcher order, snapshot images, etc.).
+device/sd/state/
+device/snapshot.gif
+
+# Random one-off probes that tend to accumulate at the repo root.
+test_init_dump.py
