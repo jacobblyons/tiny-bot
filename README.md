@@ -12,6 +12,9 @@ agent keeps running across UI reloads and survives hard resets by replaying its
 session log from flash. The model can install new apps at runtime by writing
 files to the SD card.
 
+<img width="2320" height="1921" alt="image0" src="https://github.com/user-attachments/assets/50a33cc2-1366-4713-b001-5348def7ac89" />
+
+
 ## Hardware
 
 - LilyGo T-Deck (ESP32-S3, 8MB PSRAM, 16MB flash, 320x240 ST7789, QWERTY, trackball)
