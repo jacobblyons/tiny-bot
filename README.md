@@ -1,5 +1,10 @@
-# cc-esp32-harness
-
+  ```
+   _____  ___  _   _ __   __      ____    ___   _____
+  |_   _||_ _|| \ | |\ \ / /     | __ )  / _ \ |_   _|
+    | |   | | |  \| | \ V /  --- |  _ \ | | | |  | |
+    | |   | | | |\  |  | |       | |_) || |_| |  | |
+    |_|  |___||_| \_|  |_|       |____/  \___/   |_|
+  ```
 A Claude-Code-style agent harness running entirely on a LilyGo T-Deck.
 
 The agent is a background service. The chat UI is just one app among many; the
